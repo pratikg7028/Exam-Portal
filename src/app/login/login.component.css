@@ -1,0 +1,53 @@
+/* Styling for the section */
+.section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Styling for the container div */
+.LSDiv {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Styling for headings */
+.LSDiv h2 {
+  text-align: center;
+}
+
+/* Styling for input divs */
+.LSDivInpDiv {
+  margin-bottom: 10px;
+}
+
+/* Styling for spans */
+.LSDivInpDiv span {
+  display: block;
+}
+
+/* Styling for inputs */
+.LSDivInpDiv input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Styling for buttons div */
+.LSBtsDiv {
+  text-align: center;
+}
+
+/* Styling for buttons */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  background-color: #0056b3;
+}

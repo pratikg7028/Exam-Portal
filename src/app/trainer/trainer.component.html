@@ -1,0 +1,15 @@
+<p class="welcome-message">Welcome Trainer</p>
+
+<button [disabled]="whatToShow==1" (click)="changeWhatToShow(1)">Test Management</button>
+<button [disabled]="whatToShow==2" (click)="changeWhatToShow(2)">Question Management</button>
+<button [disabled]="whatToShow==3" (click)="changeWhatToShow(3)">Answer Verification</button>
+
+<div class="content-section" *ngIf="whatToShow==1">
+    <app-testmgmt></app-testmgmt>
+</div>
+<div class="content-section" *ngIf="whatToShow==2">
+    <app-questionmgmt></app-questionmgmt>
+</div>
+<div class="content-section" *ngIf="whatToShow==3">
+    <app-answerverification></app-answerverification>
+</div>

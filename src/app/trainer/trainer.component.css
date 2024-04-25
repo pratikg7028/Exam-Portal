@@ -1,0 +1,32 @@
+/* Styling for the welcome message */
+.welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the buttons */
+  button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for disabled buttons */
+  button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  /* Styling for the content sections */
+  .content-section {
+    margin-top: 20px;
+  }
+  

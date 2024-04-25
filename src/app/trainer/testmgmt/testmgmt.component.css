@@ -1,0 +1,56 @@
+/* Styling for the button */
+button {
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for the input fields */
+  input[type="text"],
+  input[type="datetime-local"],
+  input[type="number"] {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="datetime-local"]::placeholder,
+  input[type="number"]::placeholder {
+    color: #aaa;
+  }
+  

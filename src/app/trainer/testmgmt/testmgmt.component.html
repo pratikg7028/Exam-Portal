@@ -1,0 +1,29 @@
+<button (click)="load()">Load</button>
+<table border="1">
+    <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>QuestionCount</th>
+        <th>PassingCount</th>
+        <th>Result</th>
+    </tr>
+    <tr *ngFor="let obj of tests; let i=index">
+        <td>{{i+1}}</td>
+        <td>{{obj.name}}</td>
+        <td>{{obj.start}}</td>
+        <td>{{obj.end}}</td>
+        <td>{{obj.questioncount}}</td>
+        <td>{{obj.passingcount}}</td>
+        <td>{{obj.result}}</td>
+    </tr>
+</table>
+
+AddNewTest<br>
+Name:<input type="text" [(ngModel)]="name"><br>
+Start:<input type="datetime-local" [(ngModel)]="start"><br>
+End:<input type="datetime-local" [(ngModel)]="end"><br>
+QuestionCount:<input type="number" [(ngModel)]="questioncount"><br>
+PassingCount:<input type="number" [(ngModel)]="passingcount"><br>
+<button (click)="add()">AddTest</button>
